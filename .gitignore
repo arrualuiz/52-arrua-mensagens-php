@@ -1,0 +1,29 @@
+# Dependências locais
+node_modules/
+vendor/
+
+# Arquivos de ambiente e segredos
+.env
+.env.local
+.env.*
+*.local
+
+# Logs e cache
+*.log
+.cache/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor
+.vscode/
+.idea/
+
+# Banco local e dados sensíveis
+*.sqlite
+*.sqlite3
+
+# Arquivos de build
+build/
+dist/
